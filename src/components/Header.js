@@ -52,12 +52,13 @@ function Header(props) {
                   );
                 } else {
                   return (
-                    <Link
-                      className="btn btn-xl btn-outline-light"
-                      to="https://newyorkcatgame.netlify.app/"
-                    >
-                      GRAB YOUR NYCG NFT
-                    </Link>
+                   <a
+                     className="btn btn-xl btn-outline-light"
+                     href="https://newyorkcatgame.netlify.app"
+                     target="_blank"
+                   >
+                     Grab your NYCG NFT
+                   </a>
                   );
                 }
               })()}

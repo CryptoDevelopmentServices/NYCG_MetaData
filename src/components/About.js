@@ -58,12 +58,13 @@ class About extends Component {
             </ScrollAnimation>
           </div>
           <div className="text-center mt-4">
-            <Link
-              className="btn btn-xl btn-outline-primary"
-              to="https://newyorkcatgame.netlify.app/"
-            >
-              GET YOUR NYCG
-            </Link>
+          <a
+                     className="btn btn-xl btn-outline-light"
+                     href="https://newyorkcatgame.netlify.app"
+                     target="_blank"
+                   >
+                     Grab your NYCG NFT
+          </a>
           </div>
         </section>
       </div>
