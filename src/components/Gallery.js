@@ -1,8 +1,10 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
+import {ReactDOM} from "react-dom";
 import "../css/styles.css";
 import image1 from "../assets/img/2.png";
 import ScrollAnimation from "react-animate-on-scroll";
+
+
 
 var img = [];
 class Gallery extends React.Component {
@@ -12,7 +14,7 @@ class Gallery extends React.Component {
   }
 
   async showImages() {
-    for (var i = 1; i <= 50; i++) {
+    for (var i = 1; i <= 40; i++) {
       var pic = "/img/" + (i % 40) + ".png";
       if (i % 40) {
         img.push(
@@ -25,6 +27,7 @@ class Gallery extends React.Component {
               <div>
                 <img className="img-fluid" src={pic} alt="..." />
               </div>
+              
             </div>
           </div>
         );
@@ -49,6 +52,7 @@ class Gallery extends React.Component {
             </div>
             <ScrollAnimation animateIn="fadeIn" animateOnce={true} duration={2}>
               <div className="row justify-content-center">{img}</div>
+              
             </ScrollAnimation>
           </div>
         </section>
@@ -57,3 +61,4 @@ class Gallery extends React.Component {
   }
 }
 export default Gallery;
+

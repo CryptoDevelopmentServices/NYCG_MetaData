@@ -59,7 +59,7 @@ class About extends Component {
           </div>
           <div className="text-center mt-4">
           <a
-                     className="btn btn-xl btn-outline-light"
+                     className="btn btn-xl btn-outline-dark"
                      href="https://newyorkcatgame.netlify.app"
                      target="_blank"
                    >

@@ -6,6 +6,7 @@ import Gallery from "./pages/gallery";
 import Api from "./pages/api";
 
 export default function App() {
+  
   return (
     <>
       <Router>
