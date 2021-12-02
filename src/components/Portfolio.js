@@ -12,7 +12,7 @@ class Portfolio extends Component {
     await this.showImages();
   }
   async showImages() {
-    for (var i = 6; i <= 7; i++) {
+    for (var i = 1; i <= 9; i++) {
       var pic = "/img/" + i + ".png";
       img.push(
         <div className="col-md-6 col-lg-4 mb-5">

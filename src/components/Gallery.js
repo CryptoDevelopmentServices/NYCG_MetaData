@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import "../css/styles.css";
-import image1 from "../assets/img/#2.png";
+import image1 from "../assets/img/2.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
 var img = [];
@@ -12,9 +12,9 @@ class Gallery extends React.Component {
   }
 
   async showImages() {
-    for (var i = 1; i <= 20; i++) {
-      var pic = "/img/" + (i % 10) + ".png";
-      if (i % 10) {
+    for (var i = 1; i <= 50; i++) {
+      var pic = "/img/" + (i % 40) + ".png";
+      if (i % 40) {
         img.push(
           <div className="col-md-6 col-lg-4 mb-5">
             <div
