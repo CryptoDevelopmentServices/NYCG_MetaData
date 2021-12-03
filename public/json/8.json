@@ -1,0 +1,34 @@
+{
+  "cattributes": [
+    {
+      "trait_type": "Eye Shape",
+      "value": "Suprised"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "Pin Stripes"
+    },
+    {
+      "trait_type": "Pattern Color",
+      "value": "Fine Sand 3"
+    },
+    {
+      "trait_type": "Pattern Accent Color",
+      "value": "Hard Metal 4"
+    },
+    {
+      "trait_type": "Animation",
+      "value": "Head Back-And-Forth"
+    },
+    {
+      "trait_type": "Mysterious",
+      "value": "2"
+    }
+  ],
+  "description": "Only 65535 Generation Zero Kitties will ever exist",
+  "external_url": "https://gateway.pinata.cloud/ipfs/Qmahk6gppqoZiMPeCkUdpCyCj8XdShXTrBN2TXGCYAKNxp",
+  "image": "https://gateway.pinata.cloud/ipfs/Qmahk6gppqoZiMPeCkUdpCyCj8XdShXTrBN2TXGCYAKNxp",
+  "name": "NewYork-Cat_Game #8",
+  "id" : "8",
+  "generation": "One"
+}

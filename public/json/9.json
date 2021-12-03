@@ -1,0 +1,34 @@
+{
+  "cattributes": [
+    {
+      "trait_type": "Eye Shape",
+      "value": "Suprised"
+    },
+    {
+      "trait_type": "Pattern",
+      "value": "None"
+    },
+    {
+      "trait_type": "Pattern Color",
+      "value": "Wild Berries 4"
+    },
+    {
+      "trait_type": "Pattern Accent Color",
+      "value": "Wild Berries 1"
+    },
+    {
+      "trait_type": "Animation",
+      "value": "Tail Back-And-Forth"
+    },
+    {
+      "trait_type": "Mysterious",
+      "value": "3"
+    }
+  ],
+  "description": "Only 65535 Generation Zero Kitties will ever exist",
+  "external_url": "https://gateway.pinata.cloud/ipfs/QmeZsuFqWyFjkAhdu2vbxcPH4bcnUgAiatuMj6wDF4Jwkf",
+  "image": "https://gateway.pinata.cloud/ipfs/QmeZsuFqWyFjkAhdu2vbxcPH4bcnUgAiatuMj6wDF4Jwkf",
+  "name": "NewYork-Cat_Game #9",
+  "id" : "9",
+  "generation": "Zero"
+}
