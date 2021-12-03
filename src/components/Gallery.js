@@ -14,9 +14,9 @@ class Gallery extends React.Component {
   }
 
   async showImages() {
-    for (var i = 1; i <= 40; i++) {
-      var pic = "/img/" + (i % 40) + ".png";
-      if (i % 40) {
+    for (var i = 1; i <= 46; i++) {
+      var pic = "/img/" + (i % 46) + ".png";
+      if (i % 46) {
         img.push(
           <div className="col-md-6 col-lg-4 mb-5">
             <div
