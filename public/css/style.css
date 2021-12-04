@@ -1,4 +1,4 @@
-      ul li {
+ul li {
   list-style: none;
     margin-bottom: 25px;
   padding-left: 0;
@@ -7,10 +7,25 @@
     list-style-position: inside;
 	display: inline-block;
 }
-   	
+ 
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #8577fb;
+  color: #fff;
+}
+.btn-social {
+  border-radius: 100%;
+  display: inline-flex;
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  justify-content: center;
+  align-items: center;
+}
 
 	
-.container {
+.container2 {
   position: relative;
 
 }
@@ -21,15 +36,15 @@
   height: auto;
 }
 
-.overlay {
+.overlay2 {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  font-size: 20px;
-  height: 323px;
-  width: 230px;
+  font-size: 16px;
+  height: 340px;
+  width: 250px;
   opacity: 0;
   transition: .5s ease;
   background-color: #E2EFFF;
@@ -37,11 +52,11 @@
   padding-top:20px;
 }
 
-.container:hover .overlay {
+.container2:hover .overlay2 {
   opacity: 1;
 }
 
-.text {
+.text2 {
   color: white;
   font-size: 20px;
   position: absolute;
@@ -52,5 +67,8 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
-  
-  
+  .divider-custom .divider-custom-icon{
+      color: #2c3e50 !important;
+    font-size: 2rem;
+}
+#portfolio > div > div.animated.fadeIn > div.text-center.mt-4 > a{display:none;}

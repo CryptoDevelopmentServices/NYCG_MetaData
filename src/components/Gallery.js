@@ -53,6 +53,7 @@ class Gallery extends React.Component {
             <ScrollAnimation animateIn="fadeIn" animateOnce={true} duration={2}>
               <div className="row justify-content-center">{img}</div>
               
+              
             </ScrollAnimation>
           </div>
         </section>

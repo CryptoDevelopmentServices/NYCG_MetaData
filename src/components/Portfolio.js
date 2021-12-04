@@ -50,13 +50,22 @@ class Portfolio extends Component {
               <div className="row justify-content-center">{img}</div>
 
               <div className="text-center mt-4">
-                <Link
+                {/* <Link
                   className="btn btn-xl btn-outline-light"
-                  to="/Gallery"
+                  to="/gallery.html"
                   key="portfolio"
                 >
                   VIEW MORE
-                </Link>
+                </Link> */}
+
+                  <li className="text-center mt-4">
+              <a
+                     className="btn btn-xl btn-outline-light"
+                     href="gallery.html"
+                                       >
+                    VIEW MORE
+              </a>
+              </li>
               </div>
             </ScrollAnimation>
           </div>
