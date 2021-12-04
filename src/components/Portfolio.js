@@ -13,7 +13,7 @@ class Portfolio extends Component {
   }
   async showImages() {
     for (var i = 1; i <= 9; i++) {
-      var pic = "/img/" + i + ".png";
+      var pic = "/images/" + i + ".png";
       img.push(
         <div className="col-md-6 col-lg-4 mb-5">
           <div
@@ -29,7 +29,7 @@ class Portfolio extends Component {
   }
   render() {
     return (
-      <div style={{ background: "#8577fb" }}>
+      <div style={{ background: "#white" }}>
         <section className="page-section portfolio" id="portfolio">
           <div className="container">
             <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">
@@ -60,7 +60,7 @@ class Portfolio extends Component {
 
                   <li className="text-center mt-4">
               <a
-                     className="btn btn-xl btn-outline-light"
+                     className="btn btn-xl btn-outline-dark"
                      href="gallery.html"
                                        >
                     VIEW MORE
