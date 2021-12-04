@@ -42,11 +42,11 @@ class Portfolio extends Component {
               </div>
               <div className="divider-custom-line"></div>
             </div>
-            <ScrollAnimation
+            {/* <ScrollAnimation
               animateIn="fadeIn"
               animateOnce={true}
               duration={1.5}
-            >
+            > */}
               <div className="row justify-content-center">{img}</div>
 
               <div className="text-center mt-4">
@@ -67,7 +67,7 @@ class Portfolio extends Component {
               </a>
               </li>
               </div>
-            </ScrollAnimation>
+            {/* </ScrollAnimation> */}
           </div>
         </section>
       </div>
