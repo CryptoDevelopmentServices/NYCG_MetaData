@@ -7,23 +7,22 @@ ul li {
     list-style-position: inside;
 	display: inline-block;
 }
- 
+   	
 .footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #8577fb;
-  color: #fff;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #8577fb;
+    color: #fff;
 }
 .btn-social {
-  border-radius: 100%;
-  display: inline-flex;
-  width: 3.25rem;
-  height: 3.25rem;
-  font-size: 1.25rem;
-  justify-content: center;
-  align-items: center;
+    border-radius: 100%;
+    display: inline-flex;
+    width: 3.25rem;
+    height: 3.25rem;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
 }
-
 	
 .container2 {
   position: relative;
@@ -72,3 +71,87 @@ ul li {
     font-size: 2rem;
 }
 #portfolio > div > div.animated.fadeIn > div.text-center.mt-4 > a{display:none;}
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbar {
+  background-color: #8577FB;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:9999;
+  padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: right;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight:bold;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+   color: #5846f9;
+}
+
+/* Add a green background color to the active link */
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Hide the link that should open and close the navbar on small screens */
+.navbar .icon {
+  display: none;
+}
+
+.container3{margin-top:120px;}
+
+
+
+
+
+
+
+#mainNav .navbar-brand {
+    font-size: 1.75em;
+    transition: font-size 0.3s;
+}
+
+
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+
+.logo {
+    animation: move 1s infinite;
+    position: relative;
+    cursor: pointer;
+}
+
+@keyframes move {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 10px;
+  }
+  100% {
+    top: 0px;
+  }
+}
