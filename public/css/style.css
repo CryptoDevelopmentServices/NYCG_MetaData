@@ -10,7 +10,7 @@ ul li {
 .image{
   border-radius: 15px !important;
   width: 245px;
-  height: 350px;
+  height: 450px;
 }
 .footer {
     padding-top: 5rem;
@@ -124,7 +124,7 @@ ul li {
 .flip-card {
   background-color: transparent;
   width: 245px;
-  height: 350px;
+  height: 450px;
   perspective: 1000px;
   margin-bottom:40px;
   border-radius: 15px !important;
