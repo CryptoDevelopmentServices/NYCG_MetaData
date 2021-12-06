@@ -7,7 +7,7 @@ import Portfolio from "../components/Portfolio";
 import Footer from "../components/Footer";
 // import Contact from "../components/Contact";
 // import How from "../components/How";
-import image1 from "../assets/img/2.png";
+import image1 from "../assets/img/2.gif";
 // import Pricing from "../components/Pricing";
 const Home = () => {
   window.scrollTo(0, 0);

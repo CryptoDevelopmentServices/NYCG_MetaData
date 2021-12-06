@@ -1,6 +1,6 @@
 import "../css/styles.css";
 import { Link } from "react-router-dom";
-import image1 from "../assets/img/2.png";
+import image1 from "../assets/img/2.gif";
 import FadeIn from "react-fade-in";
 import ScrollAnimation from "react-animate-on-scroll";
 import { Component } from "react";
@@ -41,7 +41,7 @@ class About extends Component {
                 </div>
                 <div className="col-lg-4 ml-auto">
                   <p className="lead">
-                    <img src="/img/6.png" alt="/" className="hari1" />
+                    <img src="/img/6.gif" alt="/" className="hari1" />
                   </p>
                 </div>
                 {/* <div className="col-lg-4 ml-auto">

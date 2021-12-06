@@ -34,7 +34,7 @@ ul li {
       color: #2c3e50 !important;
     font-size: 2rem;
 }
-#portfolio > div > div.animated.fadeIn > div.text-center.mt-4 > a{display:none;}
+/*#portfolio > div > div.animated.fadeIn > div.text-center.mt-4 > a{display:none;}*/
 
 /* Place the navbar at the bottom of the page, and make it stick */
 .navbar {

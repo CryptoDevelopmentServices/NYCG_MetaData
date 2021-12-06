@@ -1,6 +1,6 @@
 import "../css/styles.css";
 import { Link } from "react-router-dom";
-import image1 from "../assets/img/2.png";
+import image1 from "../assets/img/2.gif";
 import React, { Component } from "react";
 import FadeIn from "react-fade-in";
 import ScrollAnimation from "react-animate-on-scroll";

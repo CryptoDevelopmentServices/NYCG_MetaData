@@ -36,20 +36,27 @@ function About1() {
           <div className="collageRow">
             <div className="collageColumn">
               <img
-                src="https://gateway.pinata.cloud/ipfs/QmXWsxs3YUZTBNVF8a8WrbzWwURUEUzBzw1diY8WhuiyFe"
+              
+                src="https://gateway.pinata.cloud/ipfs/QmYAU1AVGG3fhi8jSQ1pDyVEExjYfP7NcG1d4UMppxcHyg"
                 alt="1"
+                width="245px"
+                height="700px"
               />
             </div>
             <div className="collageColumn">
               <img
-                src="https://gateway.pinata.cloud/ipfs/QmNMboxeuHBaEZXpFsbvAwPTCkygYy28npCmfD2hTTSsqV"
+                src="https://gateway.pinata.cloud/ipfs/QmQ143WuDhzxXYz7ms6PVqr21swWfq9dX2FJ95HejZ8gmG"
                 alt="2"
+                width="245px"
+                height="700px"
               />
             </div>
             <div className="collageColumn">
               <img
-                src="https://gateway.pinata.cloud/ipfs/QmNZaWr4XFUoPwHKqZQxXKhaNHQpoqwvu3EkQYwqRRvKot"
+                src="https://gateway.pinata.cloud/ipfs/QmbqvMTGxrXfNAwoBpr5vFkngXMcy9brebFyUDFkFFtPe3"
                 alt="3"
+                width="245px"
+                height="700px"
               />
             </div>
           </div>
